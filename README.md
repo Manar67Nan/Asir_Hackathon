@@ -1,61 +1,90 @@
-# منصة أُفُق | مشروع هاكثون عسير
+# Afaq | Investment Opportunities Platform
 
-منصة أُفُق هي مشروع تقني يهدف إلى دعم الاستثمار المحلي في منطقة عسير من خلال توفير منصة لعرض الفرص الاستثمارية وتوثيقها، وتعزيز الشفافية، وتشجيع مشاركة المجتمع المحلي في تقييم الأفكار والمشاريع.
+Afaq is a digital platform developed for the Asir Hackathon to support local investment by presenting investment opportunities, promoting transparency, and encouraging community participation.
 
-## Live Demo
-
-**رابط تجربة المنصة:** [منصة أُفُق](https://3dhkilcjoyo0.manus.space)
-
-يمكن زيارة الرابط لاستكشاف النسخة المنشورة من المشروع.
+**Live Demo:** [Explore Afaq](https://3dhkilcjoyo0.manus.space)
 
 ## Project Overview
 
-تم تطوير منصة أُفُق للمشاركة في هاكثون عسير، بهدف تقديم حل رقمي يدعم عرض الفرص الاستثمارية وتوثيقها، ويساهم في تعزيز بيئة الاستثمار المحلي في المنطقة.
+Afaq aims to provide a digital space for presenting and documenting investment opportunities in the Asir region. The project focuses on improving access to investment information, supporting idea owners, and encouraging community engagement in evaluating and developing opportunities.
 
-يركز المشروع على تحسين الوصول إلى الفرص الاستثمارية، ودعم أصحاب الأفكار والمشاريع، وتعزيز الشفافية في عرض المعلومات.
+## Key Features
 
-## Problem Statement
+- **Investment Opportunities:** Browse investment opportunities and view their details.
+- **AI Recommendations:** An AI-based recommendation module for investment opportunities.
+- **Interactive Maps:** Map-related components for exploring investment opportunities.
+- **User Authentication:** User authentication and account management.
+- **Community Voting:** Support for community participation through a voting system.
+- **Intellectual Property Protection:** Interface components related to intellectual property protection and NDA acceptance.
 
-تحتاج بيئة الاستثمار المحلي إلى وسائل رقمية تساعد على عرض الفرص الاستثمارية وتوثيقها بصورة منظمة، وتسهّل وصول المهتمين إليها، وتدعم مشاركة المجتمع المحلي في تطوير الأفكار والمشاريع.
+## Technologies Used
 
-## Proposed Solution
+### Frontend
+- React and JSX
+- CSS
+- HTML
 
-تقدم منصة أُفُق تصورًا لمنصة رقمية تجمع بين عرض الفرص الاستثمارية وتوثيقها، مع التركيز على حماية الملكية الفكرية، وتعزيز الشفافية، وتشجيع المشاركة المجتمعية في تطوير الفرص الاستثمارية.
+### Backend
+- Python
+- Flask
+- Flask-CORS
+- Flask-SQLAlchemy
+
+### Database
+- SQLite
+- SQLAlchemy ORM
+
+## Project Structure
+
+```text
+Hackathon/
+├── Backend/
+│   ├── main.py
+│   ├── auth.py
+│   ├── user.py
+│   ├── opportunity.py
+│   └── ai_recommendations.py
+├── frontend/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── Home.jsx
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── OpportunitiesPage.jsx
+│   ├── OpportunityDetails.jsx
+│   ├── InteractiveMap.jsx
+│   ├── MapPage.jsx
+│   ├── VotingSystem.jsx
+│   └── index.html
+└── README.md
+```
+
+*Note: This structure highlights selected project files. The repository may contain additional files and modules.*
 
 ## Project Objectives
 
-- دعم عرض الفرص الاستثمارية داخل منطقة عسير وتوثيقها.
-- المساهمة في حماية الملكية الفكرية لأصحاب الأفكار والمشاريع.
-- تعزيز الشفافية في عرض المعلومات المتعلقة بالفرص الاستثمارية.
-- تشجيع مشاركة المجتمع المحلي في تقييم الفرص وتطويرها.
-- دعم الاستثمار المحلي بما يتماشى مع مستهدفات رؤية السعودية 2030.
+- Support the presentation and documentation of investment opportunities.
+- Improve transparency and access to investment information.
+- Encourage local community participation.
+- Support the protection of intellectual property.
+- Contribute to local investment initiatives aligned with Saudi Vision 2030.
 
-## Repository Structure
+## Live Demo
 
-يتضمن المستودع المكونات الرئيسية التالية:
+Explore the deployed platform:
 
-- `Backend/` — مجلد المشروع الخاص بالواجهة الخلفية.
-- `frontend/` — مجلد المشروع الخاص بالواجهة الأمامية.
-- `README.md` — توثيق المشروع ومعلوماته الأساسية.
+[https://3dhkilcjoyo0.manus.space](https://3dhkilcjoyo0.manus.space)
 
-## Technologies & Implementation
+The live demo provides access to the published version of the project. Available functionality may differ from the source code in this repository.
 
-سيتم توثيق التقنيات والمكتبات المستخدمة في الواجهة الأمامية والخلفية، إلى جانب طريقة إعداد المشروع وتشغيله، وفقًا لملفات المصدر الفعلية.
+## Project Information
 
-## Project Context
-
-**Project:** منصة أُفُق  
-**Event:** هاكثون عسير  
-**Focus:** الاستثمار المحلي، توثيق الفرص الاستثمارية، والشفافية  
-**Deployment:** Manus
-
-## Future Improvements
-
-- تطوير آليات أكثر تنظيمًا لعرض الفرص الاستثمارية والبحث عنها.
-- تحسين تجربة المستخدم وسهولة الوصول إلى المعلومات.
-- تعزيز توثيق الفرص وإدارة المعلومات المتعلقة بها.
-- إضافة توثيق تقني شامل لتسهيل إعداد المشروع وتشغيله.
+- **Project Name:** Afaq (أُفُق)
+- **Event:** Asir Hackathon
+- **Category:** Investment Technology
+- **Deployment Platform:** Manus
+- **Repository:** GitHub
 
 ## Disclaimer
 
-يمثل المشروع نموذجًا تقنيًا تم تطويره ضمن المشاركة في هاكثون عسير. وتعتمد الوظائف المتاحة حاليًا على النسخة المنشورة والتنفيذ الموجود في المستودع.
+This project was developed as part of participation in the Asir Hackathon. The features described above reflect the intended functionality indicated by the project structure and available modules; their completeness and current operation have not been independently verified.
