@@ -69,13 +69,6 @@ Hackathon/
 - Support the protection of intellectual property.
 - Contribute to local investment initiatives aligned with Saudi Vision 2030.
 
-## Live Demo
-
-Explore the deployed platform:
-
-[https://3dhkilcjoyo0.manus.space](https://3dhkilcjoyo0.manus.space)
-
-The live demo provides access to the published version of the project. Available functionality may differ from the source code in this repository.
 
 ## Project Information
 
